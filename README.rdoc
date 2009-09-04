@@ -20,6 +20,7 @@ more ruby friendly? Welcome to Css Masher!
 == SYNOPSIS:
 
 my_masher = CssMasher.new
+my_masher.add_block('... valid css goes here ...')
 my_masher.to_hash
 
 == REQUIREMENTS:
