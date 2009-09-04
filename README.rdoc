@@ -1,32 +1,40 @@
-= css_masher
+= css_masher: Mash your CSS
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/undecided/css_masher
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Ever wanted something that could quickly compile your (very simple) css into something a bit
+more ruby friendly? Welcome to Css Masher!
 
-== FEATURES/PROBLEMS:
+== FEATURES:
 
-* FIX (list of features or problems)
+* Very very lightweight
+* Probably pretty nippy
+
+== PROBLEMS:
+
+* Very very lightweight
+* Probably pretty brittle
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+my_masher = CssMasher.new
+my_masher.to_hash
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+Nothing, other than a strong stomach and a non-mission-critical purpose...
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install undecided-css_masher
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Matthew Bennett
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

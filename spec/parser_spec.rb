@@ -13,4 +13,9 @@ describe CssMasher::Parser do
     hash.should == {:its => {:very => 'simple'}}
   end
 
+  it "should handle multiple attributes" do
+    hash = CssMasher::Parser.parse!('its {not : quite; so: simple now "is it"!}')
+
+    hash.should == {:its => {:not => 'quite', :so => 'simple now "is it"!'}}
+  end
 end
