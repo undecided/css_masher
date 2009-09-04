@@ -7,7 +7,10 @@ describe CssMasher::Parser do
     hash[:its].should_not be_nil
   end
 
-  xit "should do something" do
-     {:its => {:very => 'simple'}}
+  it "should identify attribute pairs" do
+    hash = CssMasher::Parser.parse!('its { very: simple }')
+
+    hash.should == {:its => {:very => 'simple'}}
   end
+
 end
